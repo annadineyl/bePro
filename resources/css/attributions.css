@@ -1,0 +1,134 @@
+body {
+    background: #f6f6f6;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #c2c2c2;
+}
+
+span.todo-page {
+    display: block;
+    width: 150px;
+    font-size: 14px;
+    position: absolute;
+    top: 13px;
+    right: 33px;
+}
+
+span.todo-page a {
+    color: #c2c2c2;
+    text-decoration-color: #d3d3d3;
+}
+
+span.todo-page a:hover {
+    text-decoration: none;
+    color: #ea596a;
+}
+
+a.github-link {
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background: none;
+}
+
+a.github-link svg {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: -35% -35% 0 0;
+}
+
+a.github-link svg .fill {
+    fill: rgba(234, 89, 106, .6);
+}
+
+a.github-link:hover svg .fill {
+    fill: rgba(234, 89, 106, 1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    color: #dadada;
+    margin-top: 45px;
+    margin-bottom: 7px;    
+}
+
+h1 span {
+    color: rgba(234, 89, 106, .3);
+}
+
+h2 {
+    color: rgba(234, 89, 106, .7);
+    color: #fd6767;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+div.container {
+    margin-top: 30px;
+}
+
+div.container ul {
+    width: 560px;
+    padding-left: 0;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+div.container ul li {
+    list-style-type: none;
+    width: 100%;
+    min-height: 50px;
+    margin: 18px 0;
+    padding: 16px;
+    background: #fcfcfc;
+    box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
+}
+
+div.container ul li div {
+    padding: 7px 0;
+    color: #56525f;
+}
+
+div.container ul li div.icon {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+div.container ul li div.link a {
+    color: #56525f;
+    text-decoration-color: #bbb;
+}
+
+div.container ul li div.link a:hover {
+    text-decoration: none;
+    color: #ea596a;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #bababa;
+    margin: 75px 0;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+footer p a {
+    color: #bababa;
+    text-decoration-color: #d3d3d3;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #ea596a;
+}

@@ -1,5 +1,6 @@
 <div align="center">
   <br>
+  <br>
   <a href="#"><img src="img/bePro.png" alt="bePro" width="200"></a>
   <br>
 </div>
@@ -7,14 +8,11 @@
 <h4 align="center">:memo: A simple to do list webpage to help you be more productive :memo:</h4>
 
 <div align="center">
-  <img alt="bePro Web" width="60%" src="img/bePro_web.png">
+  <img alt="bePro Web" width="70%" src="img/bePro_web.png">
 </div>
 
-<h1 align="center">
-  <br>
-  bePro
-  <br>
-</h1>
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge&logo=appveyor)](https://github.com/annadineyl/bePro/issues)
 
 ## Contents
 
@@ -31,30 +29,30 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
 <h3 align="center">Add Task</h3>
 
 <div align="center">
-  <img alt="Boards" width="60%" src="img/add.gif">
+  <img alt="Add Task" width="60%" src="img/add.gif">
 </div>
 
 <h3 align="center">Remove Task</h3>
 
 <div align="center">
-  <img alt="Boards" width="60%" src="img/remove.gif">
+  <img alt="Remove Task" width="60%" src="img/remove.gif">
 </div>
 
 <h3 align="center">Checked/ Unchecked Task</h3>
 
 <div align="center">
-  <img alt="Boards" width="60%" src="img/checked_unchecked.gif">
+  <img alt="Checked/ Unchecked Task" width="60%" src="img/checked_unchecked.gif">
 </div>
 
 <h3 align="center">Separate the Uncompleted & Completed Tasks</h3>
 
 <div align="center">
-  <img alt="Boards" width="60%" src="img/separate.gif">
+  <img alt="Separate the Uncompleted & Completed Tasks" width="60%" src="img/separate.gif">
 </div>
 
 ## How to Use?
 
-You can just go to this [link](), or open in your computer by cloning/ downloading this repo, then double-click/ open the [index.html](https://github.com/annadineyl/bePro/blob/master/index.html) file in your favorite browser.
+You can just go to this [page](), or open in your computer by cloning/ downloading this repo, then double-click/ open the [index.html](https://github.com/annadineyl/bePro/blob/master/index.html) file in your favorite browser.
 
 ## Contributing
 
@@ -63,4 +61,4 @@ You can just go to this [link](), or open in your computer by cloning/ downloadi
 
 ## License
 
-This project is licensed under the GNU GPL 3.0 License - see the [LICENSE.md](https://github.com/annadineyl/bePro/blob/master/LICENSE) file for details
+<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GNU GPL 3.0" style="border-width:0" src="https://www.gnu.org/graphics/gplv3-with-text-84x42.png"></a><br>This project is licensed under the GNU GPL 3.0 License - see the [LICENSE.md](https://github.com/annadineyl/bePro/blob/master/LICENSE) file for details

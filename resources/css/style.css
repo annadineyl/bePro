@@ -51,7 +51,8 @@ div#input {
     height: 55px;
     margin: 0 auto 18px auto;
     position: relative;
-    box-shadow: 1px 1px 3px rgba(5, 5, 5, .1);
+    -webkit-box-shadow: 1px 1px 3px rgba(5, 5, 5, .1);
+            box-shadow: 1px 1px 3px rgba(5, 5, 5, .1);
 }
 
 div#input input {
@@ -60,7 +61,8 @@ div#input input {
     background: #f6f6f6;
     color: #56525f;
     border: 1px solid rgba(234, 89, 106, 1);
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     outline: none;
     padding: 0 50px 0 10px;
     text-indent: 14px;
@@ -69,7 +71,8 @@ div#input input {
 
 div#input input:focus {
     background: #fcfcfc;
-    box-shadow: inset 0 0 5px rgba(50, 50, 50, .2);
+    -webkit-box-shadow: inset 0 0 5px rgba(50, 50, 50, .2);
+            box-shadow: inset 0 0 5px rgba(50, 50, 50, .2);
 }
 
 div#input input::-webkit-input-placeholder {
@@ -104,7 +107,8 @@ div#input button {
     height: 53px;
     background: none;
     border: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     position: absolute;
     top: 1px;
     right: 1px;
@@ -162,7 +166,8 @@ div.container ul.todo li {
     padding: 16px 100px 16px 60px;
     line-height: 1.5;
     word-wrap: break-word;
-    box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
+    -webkit-box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
+            box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
 }
 
 div.container ul.todo li:last-of-type {
@@ -311,7 +316,8 @@ div.container ul.todo#completed:not(:empty) {
 
 div.container ul.todo#completed li {
     color: #bcbcbc;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 div.container ul.todo#completed li button.complete svg .rect {
@@ -336,7 +342,8 @@ footer p {
 
 footer p a {
     color: #bababa;
-    text-decoration-color: #d3d3d3;
+    -webkit-text-decoration-color: #d3d3d3;
+            text-decoration-color: #d3d3d3;
 }
 
 footer p a:hover {

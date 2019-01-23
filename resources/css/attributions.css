@@ -16,7 +16,8 @@ span.todo-page {
 
 span.todo-page a {
     color: #c2c2c2;
-    text-decoration-color: #d3d3d3;
+    -webkit-text-decoration-color: #d3d3d3;
+            text-decoration-color: #d3d3d3;
 }
 
 span.todo-page a:hover {
@@ -89,7 +90,8 @@ div.container ul li {
     margin: 18px 0;
     padding: 16px;
     background: #fcfcfc;
-    box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
+    -webkit-box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
+            box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
 }
 
 div.container ul li div {
@@ -104,7 +106,8 @@ div.container ul li div.icon {
 
 div.container ul li div.link a {
     color: #56525f;
-    text-decoration-color: #bbb;
+    -webkit-text-decoration-color: #bbb;
+            text-decoration-color: #bbb;
 }
 
 div.container ul li div.link a:hover {
@@ -125,7 +128,8 @@ footer p {
 
 footer p a {
     color: #bababa;
-    text-decoration-color: #d3d3d3;
+    -webkit-text-decoration-color: #d3d3d3;
+            text-decoration-color: #d3d3d3;
 }
 
 footer p a:hover {

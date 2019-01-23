@@ -11,6 +11,7 @@
   <img alt="bePro Web" width="70%" src="img/bePro_web.png">
 </div>
 
+---
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge&logo=appveyor)](https://github.com/annadineyl/bePro/issues)
 

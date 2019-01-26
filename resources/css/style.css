@@ -192,14 +192,16 @@ div.container ul.todo li input.edit-input {
     background: #fafafa;
     color: #7d7d7d;
     border: 1px solid #e5e5e5;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     outline: none;
     text-indent: 8px;
 }
 
 div.container ul.todo li input.edit-input:focus {
     border: 1px solid #e5e5e5;
-    box-shadow: inset 0 1px 5px #eaeaea;
+    -webkit-box-shadow: inset 0 1px 5px #eaeaea;
+            box-shadow: inset 0 1px 5px #eaeaea;
 }
 
 div.container ul.todo li input.hide {

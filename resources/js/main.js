@@ -11,14 +11,47 @@ document.getElementById('add').addEventListener('click', function() {
     }
 })
 
+function editTodo() {
+    var item = this.parentNode.parentNode;
+    var editInput = item.querySelector('input.edit-input');
+    var completeButton = item.querySelector('button.complete');
+    var removeButton = item.querySelector('button.remove');
+    var itemSpan = item.querySelector('span.item-text');
+    var itemText = itemSpan.innerText;
+
+    if (this.classList.contains('update')) {
+        if (editInput.value) {
+            this.classList.remove('update');
+            item.querySelector('span.item-text').innerText = editInput.value;
+            editInput.classList.add('hide');
+            itemSpan.classList.remove('hide');
+            completeButton.classList.remove('hide');
+            removeButton.classList.remove('update');
+        } else {
+            var item = this.parentNode.parentNode;
+            var list = item.parentNode;
+
+            list.removeChild(item);
+            numOfItems = numOfItems - 1;
+        }
+    } else {
+        this.classList.add('update');
+        editInput.value = itemText;
+        itemSpan.classList.add('hide');
+        editInput.classList.remove('hide');
+        completeButton.classList.add('hide');
+        removeButton.classList.add('update');
+    }
+}
+
 function removeTodo() {
     var item = this.parentNode.parentNode;
     var list = item.parentNode;
 
-    list.removeChild(item);
-
-    numOfItems = numOfItems - 1;
-    // console.log(numOfItems);
+    if (!this.classList.contains('update')) {
+        list.removeChild(item);
+        numOfItems = numOfItems - 1;
+    }
 }
 
 function completeTodo() {
@@ -26,7 +59,6 @@ function completeTodo() {
     var list = item.parentNode;
 
     list.removeChild(item);
-    // console.log(numOfItems);
 
     var id = list.id;
     var target;
@@ -45,12 +77,18 @@ function completeTodo() {
     }
 }
 
-
 function addTodo(txt) {
     var list = document.getElementById('todo');
 
     var item = document.createElement('li');
-    item.innerText = txt;
+
+    var itemText = document.createElement('span');
+    itemText.classList.add('item-text');
+    itemText.innerText = txt;
+
+    var editInput = document.createElement('input');
+    editInput.setAttribute('type', 'text');
+    editInput.classList.add('edit-input', 'hide');
 
     // Complete button
     var complete = document.createElement('button');
@@ -68,7 +106,7 @@ function addTodo(txt) {
     edit.classList.add('edit');
     edit.innerHTML = editSVG;
 
-    // edit.addEventListener('click', editTodo);
+    edit.addEventListener('click', editTodo);
 
     // Remove button
     var remove = document.createElement('button');
@@ -79,13 +117,13 @@ function addTodo(txt) {
 
     buttons.appendChild(edit);
     buttons.appendChild(remove);
+    item.appendChild(itemText);
+    item.appendChild(editInput);
     item.appendChild(complete);
     item.appendChild(buttons);
 
     list.insertBefore(item, list.childNodes[0]);
-
     numOfItems = numOfItems + 1;
-    // console.log(numOfItems);
 
     var completedList = document.getElementById('completed');
     if (completedList.childNodes.length != 0) {

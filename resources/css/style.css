@@ -163,7 +163,7 @@ div.container ul.todo li {
     border-bottom: 1px solid #dedede;
     position: relative;
     margin-bottom: 8px;
-    padding: 16px 100px 16px 60px;
+    padding: 0 100px 0 60px;
     line-height: 1.5;
     word-wrap: break-word;
     -webkit-box-shadow: 0 2px 7px rgba(40, 40, 40, .1);
@@ -172,6 +172,38 @@ div.container ul.todo li {
 
 div.container ul.todo li:last-of-type {
     margin-bottom: 0;
+}
+
+div.container ul.todo li span.item-text {
+    display: block;
+    margin: 0;
+    padding: 16px 9px;
+}
+
+div.container ul.todo li span.hide {
+    display: none;
+}
+
+div.container ul.todo li input.edit-input {
+    width: 340px;
+    height: 100%;
+    height: 59px;
+    padding-right: 10px;
+    background: #fafafa;
+    color: #7d7d7d;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    outline: none;
+    text-indent: 8px;
+}
+
+div.container ul.todo li input.edit-input:focus {
+    border: 1px solid #e5e5e5;
+    box-shadow: inset 0 1px 5px #eaeaea;
+}
+
+div.container ul.todo li input.hide {
+    display: none;
 }
 
 div.container ul.todo button {
@@ -187,6 +219,10 @@ div.container ul.todo button {
     -ms-appearance: none;
     -o-appearance: none;
     appearance: none;
+}
+
+div.container ul.todo button.hide {
+    display: none;
 }
 
 div.container ul.todo button.complete {
@@ -242,7 +278,6 @@ div.container ul.todo .buttons button {
     height: 40px;
     float: left;
     position: relative;
-    /* border: 1px solid #333; */
 }
 
 div.container ul.todo .buttons button:last-of-type:before {
@@ -269,10 +304,6 @@ div.container ul.todo .buttons button.edit svg .pencil-circle {
     transition: fill .2s ease;
 }
 
-div.container ul.todo .buttons button.edit svg:hover .pencil-circle {
-    fill: #807474;
-}
-
 div.container ul.todo .buttons button.edit svg .pencil {
     fill: #cdcdcd;
 
@@ -283,8 +314,12 @@ div.container ul.todo .buttons button.edit svg .pencil {
     transition: fill .2s ease;
 }
 
-div.container ul.todo .buttons button.edit svg:hover .pencil {
-    fill: #807474;
+div.container ul.todo .buttons button.update svg .pencil-circle {
+    fill: #504141;
+}
+
+div.container ul.todo .buttons button.update svg .pencil {
+    fill: #504141;
 }
 
 div.container ul.todo .buttons button.remove svg {
@@ -304,6 +339,10 @@ div.container ul.todo .buttons button.remove svg .fill {
 
 div.container ul.todo .buttons button.remove svg:hover .fill {
     fill: rgba(234, 89, 106, 1);
+}
+
+div.container ul.todo .buttons button.remove.update svg .fill {
+    fill: #cdcdcd;
 }
 
 div.container ul.todo#completed:not(:empty) {
@@ -333,7 +372,7 @@ footer {
     text-align: center;
     font-size: 12px;
     color: #bababa;
-    margin-top: 75px;
+    margin: 75px 0;
 }
 
 footer p {

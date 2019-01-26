@@ -59,7 +59,7 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
 
 ## How to Use?
 
-You can just go to this [page](), or open in your computer by cloning/ downloading this repo, then double-click/ open the [index.html](https://github.com/annadineyl/bePro/blob/master/index.html) file in your favorite browser.
+You can just go to this [page](), or open in your computer by [cloning/ downloading](https://github.com/annadineyl/bePro/releases) this repo, then double-click/ open the [index.html](https://github.com/annadineyl/bePro/blob/master/index.html) file in your favorite browser.
 
 ## Contributing
 

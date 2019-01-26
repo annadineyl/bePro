@@ -45,6 +45,12 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
   <img alt="Checked/ Unchecked Task" width="60%" src="img/checked_unchecked.gif">
 </div>
 
+<h3 align="center">Edit Task</h3>
+
+<div align="center">
+  <img alt="Edit Task" width="60%" src="img/edit.gif">
+</div>
+
 <h3 align="center">Separate the Uncompleted & Completed Tasks</h3>
 
 <div align="center">

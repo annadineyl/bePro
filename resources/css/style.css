@@ -391,3 +391,86 @@ footer p a:hover {
     text-decoration: none;
     color: #ea596a;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 558px) {
+
+    h1 {
+        font-size: 90px;
+    }
+
+    div#input {
+        width: 440px;
+    }
+
+    div.container {
+        width: 440px;
+    }
+
+    div.container ul.todo li input.edit-input {
+        width: 280px;
+    }
+
+}
+
+@media screen and (max-width: 488px) {
+
+    h1 {
+        font-size: 76px;
+    }
+
+    div#input {
+        width: 380px;
+    }
+
+    div.container {
+        width: 380px;
+    }
+
+    div.container ul.todo li input.edit-input {
+        width: 220px;
+    }
+
+}
+
+@media screen and (max-width: 411px) {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    div#input {
+        width: 340px;
+    }
+
+    div.container {
+        width: 340px;
+    }
+
+    div.container ul.todo li input.edit-input {
+        width: 180px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    h1 {
+        font-size: 65px;
+    }
+
+    div#input {
+        width: 285px;
+    }
+
+    div.container {
+        width: 285px;
+    }
+
+    div.container ul.todo li input.edit-input {
+        width: 125px;
+    }
+
+}

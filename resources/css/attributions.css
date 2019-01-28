@@ -136,3 +136,76 @@ footer p a:hover {
     text-decoration: none;
     color: #ea596a;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 610px) {
+
+    h1 {
+        font-size: 90px;
+    }
+
+    div.container ul {
+        width: 470px;
+    }
+
+}
+
+@media screen and (max-width: 505px) {
+
+    h1 {
+        font-size: 83px;
+        margin-top: 59px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    div.container ul {
+        width: 430px;
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+
+    div.container ul {
+        width: 380px;
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+
+    h1 {
+        font-size: 80px;
+        margin-top: 70px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    div.container ul {
+        width: 340px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    h1 {
+        font-size: 75px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    div.container ul {
+        width: 270px;
+    }
+
+}

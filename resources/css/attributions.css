@@ -58,7 +58,13 @@ h1 {
     font-weight: 600;
     color: #dadada;
     margin-top: 45px;
-    margin-bottom: 7px;    
+    margin-bottom: 7px;  
+    
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -ms-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
 }
 
 h1 span {
@@ -70,6 +76,12 @@ h2 {
     color: #fd6767;
     margin-top: 40px;
     font-size: 30px;
+
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -ms-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
 }
 
 div.container {
@@ -81,6 +93,12 @@ div.container ul {
     padding-left: 0;
     font-size: 15px;
     margin: 0 auto;
+
+    -webkit-transition: width .4s ease;
+    -moz-transition: width .4s ease;
+    -ms-transition: width .4s ease;
+    -o-transition: width .4s ease;
+    transition: width .4s ease;
 }
 
 div.container ul li {

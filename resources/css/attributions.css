@@ -104,6 +104,10 @@ div.container ul li div.icon {
     text-transform: uppercase;
 }
 
+div.container ul li div.link {
+    line-height: 1.6;
+}
+
 div.container ul li div.link a {
     color: #56525f;
     -webkit-text-decoration-color: #bbb;

@@ -1,5 +1,6 @@
 body {
     background: #f6f6f6;
+    overflow-y: scroll;
 }
 
 body, input, button {
@@ -365,12 +366,15 @@ div.container ul.todo .buttons button.remove.update svg .fill {
     fill: #cdcdcd;
 }
 
-div.container ul.todo#completed:not(:empty) {
+div.container ul.todo#completed {
     margin: 0;
-    /* padding-top: 50px; */
+    padding-top: 50px;
+    position: relative;
+}
+
+div.container ul.todo#completed:not(:empty) {
     color: #cecece;
     text-decoration: line-through;
-    position: relative;
 }
 
 div.container ul.todo#completed li {
@@ -388,11 +392,34 @@ div.container ul.todo#completed li button.complete svg .checked {
     stroke: #116824;
 }
 
+div.container ul.todo#todo:empty:after, 
+div.container ul.todo#completed:empty:after {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    background: #ededed;
+    color: #999;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+div.container ul.todo#todo:empty:after {
+    content: 'You have nothing to do';
+    margin-top: 50px;
+    width: 32%;
+}
+
+div.container ul.todo#completed:empty:after {
+    content: 'You have not completed any tasks';
+    width: 45%;
+}
+
 footer {
     text-align: center;
     font-size: 12px;
     color: #bababa;
-    margin: 75px 0;
+    margin: 90px 0;
 }
 
 footer p {

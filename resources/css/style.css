@@ -115,6 +115,7 @@ div#input input::placeholder {
     font-style: italic;
 }
 
+/* Add Button */
 div#input button {
     width: 50px;
     height: 53px;
@@ -168,6 +169,7 @@ div.container {
     transition: width .5s ease;
 }
 
+/* Todo List */
 div.container ul.todo {
     list-style-type: none;
     padding-left: 0;
@@ -246,6 +248,7 @@ div.container ul.todo button.hide {
     display: none;
 }
 
+/* Complete Button */
 div.container ul.todo button.complete {
     width: 50px;
     height: 40px;
@@ -310,6 +313,7 @@ div.container ul.todo .buttons button:last-of-type:before {
     left: 0;
 }
 
+/* Edit Button */
 div.container ul.todo .buttons button.edit svg {
     width: 25px;
     height: 25px;
@@ -343,6 +347,7 @@ div.container ul.todo .buttons button.update svg .pencil {
     fill: #504141;
 }
 
+/* Remove Button */
 div.container ul.todo .buttons button.remove svg {
     width: 25px;
     height: 25px;
@@ -366,12 +371,14 @@ div.container ul.todo .buttons button.remove.update svg .fill {
     fill: #cdcdcd;
 }
 
+/* Completed List */
 div.container ul.todo#completed {
     margin: 0;
     padding-top: 50px;
     position: relative;
 }
 
+/* If completed list is not empty */
 div.container ul.todo#completed:not(:empty) {
     color: #cecece;
     text-decoration: line-through;
@@ -392,6 +399,7 @@ div.container ul.todo#completed li button.complete svg .checked {
     stroke: #116824;
 }
 
+/* If todo and completed list are empty */
 div.container ul.todo#todo:empty:after, 
 div.container ul.todo#completed:empty:after {
     display: block;
@@ -415,6 +423,7 @@ div.container ul.todo#completed:empty:after {
     width: 45%;
 }
 
+/* Footer */
 footer {
     text-align: center;
     font-size: 12px;

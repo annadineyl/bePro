@@ -14,8 +14,13 @@ document.getElementById('add').addEventListener('click', function() {
         document.getElementById('item').value = '';  // Reset the value
 
         data.todo.push(value);
+        dataUpdated();
     }
 })
+
+function dataUpdated() {
+    localStorage.setItem('todoList', JSON.stringify(data));
+}
 
 function editTodo() {
     var item = this.parentNode.parentNode;
@@ -36,6 +41,7 @@ function editTodo() {
                 var i = data.completed.indexOf(itemText);
                 data.completed[i] = editInput.value;
             }
+            dataUpdated();
 
             this.classList.remove('update');
             item.querySelector('span.item-text').innerText = editInput.value;
@@ -49,6 +55,7 @@ function editTodo() {
             } else {
                 data.completed.splice(data.completed.indexOf(itemText), 1);
             }
+            dataUpdated();
 
             var item = this.parentNode.parentNode;
             var list = item.parentNode;
@@ -77,6 +84,7 @@ function removeTodo() {
         } else {
             data.completed.splice(data.completed.indexOf(value), 1);
         }
+        dataUpdated();
 
         list.removeChild(item);
     }
@@ -104,6 +112,7 @@ function completeTodo() {
         target = document.getElementById('todo');
         target.appendChild(item);
     }
+    dataUpdated();
 }
 
 function addTodo(txt) {

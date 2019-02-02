@@ -458,6 +458,19 @@ footer p a:hover {
         width: 280px;
     }
 
+    div.container ul.todo#todo:empty:after, 
+    div.container ul.todo#completed:empty:after {
+        font-size: 11px;
+    }
+
+    div.container ul.todo#todo:empty:after {
+        width: 33%;
+    }
+    
+    div.container ul.todo#completed:empty:after {
+        width: 46%;
+    }
+    
 }
 
 @media screen and (max-width: 488px) {
@@ -476,6 +489,14 @@ footer p a:hover {
 
     div.container ul.todo li input.edit-input {
         width: 220px;
+    }
+
+    div.container ul.todo#todo:empty:after {
+        width: 39%;
+    }
+    
+    div.container ul.todo#completed:empty:after {
+        width: 52%;
     }
 
 }
@@ -498,6 +519,14 @@ footer p a:hover {
         width: 180px;
     }
 
+    div.container ul.todo#todo:empty:after {
+        width: 44%;
+    }
+    
+    div.container ul.todo#completed:empty:after {
+        width: 58%;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
@@ -516,6 +545,14 @@ footer p a:hover {
 
     div.container ul.todo li input.edit-input {
         width: 125px;
+    }
+
+    div.container ul.todo#todo:empty:after {
+        width: 52%;
+    }
+    
+    div.container ul.todo#completed:empty:after {
+        width: 70%;
     }
 
 }

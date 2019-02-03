@@ -45,17 +45,17 @@ function renderTodoList() {
     }
 }
 
-function editTodo() {
-    var item = this.parentNode.parentNode;
-    var list = item.parentNode;
-    var id = list.id;
-    var editInput = item.querySelector('input.edit-input');
-    var completeButton = item.querySelector('button.complete');
-    var removeButton = item.querySelector('button.remove');
-    var itemSpan = item.querySelector('span.item-text');
-    var itemText = itemSpan.innerText;
-
-    if (this.classList.contains('update')) {
+function editTodo(e) {
+    function edit() {
+        editButton.classList.add('update');
+        editInput.value = itemText;
+        itemSpan.classList.add('hide');
+        editInput.classList.remove('hide');
+        completeButton.classList.add('hide');
+        removeButton.classList.add('update');
+    }
+    
+    function update() {
         if (editInput.value) {
             if (id === 'todo') {
                 var i = data.todo.indexOf(itemText);
@@ -65,8 +65,8 @@ function editTodo() {
                 data.completed[i] = editInput.value;
             }
             dataUpdated();
-
-            this.classList.remove('update');
+    
+            editButton.classList.remove('update');
             item.querySelector('span.item-text').innerText = editInput.value;
             editInput.classList.add('hide');
             itemSpan.classList.remove('hide');
@@ -80,18 +80,38 @@ function editTodo() {
             }
             dataUpdated();
 
-            var item = this.parentNode.parentNode;
-            var list = item.parentNode;
-
             list.removeChild(item);
         }
-    } else {
-        this.classList.add('update');
-        editInput.value = itemText;
-        itemSpan.classList.add('hide');
-        editInput.classList.remove('hide');
-        completeButton.classList.add('hide');
-        removeButton.classList.add('update');
+    }
+    
+    if (e.type === 'keydown') {
+        if (e.code === 'Enter') {
+            var item = this.parentNode;
+            var list = item.parentNode;
+            var id = list.id;
+            var editInput = item.querySelector('input.edit-input');
+            var completeButton = item.querySelector('button.complete');
+            var editButton = item.querySelector('.buttons .edit');
+            var removeButton = item.querySelector('button.remove');
+            var itemSpan = item.querySelector('span.item-text');
+            var itemText = itemSpan.innerText;
+
+            update(); 
+        }
+    }
+
+    if (e.type === 'click') {
+        var item = this.parentNode.parentNode;
+        var list = item.parentNode;
+        var id = list.id;
+        var editInput = item.querySelector('input.edit-input');
+        var completeButton = item.querySelector('button.complete');
+        var editButton = item.querySelector('.buttons .edit');
+        var removeButton = item.querySelector('button.remove');
+        var itemSpan = item.querySelector('span.item-text');
+        var itemText = itemSpan.innerText;
+
+        this.classList.contains('update') ? update() : edit();
     }
 }
 
@@ -168,6 +188,7 @@ function addTodoToDOM(txt, completed) {
     edit.innerHTML = editSVG;
 
     edit.addEventListener('click', editTodo);
+    editInput.addEventListener('keydown', editTodo);
 
     // Remove button
     var remove = document.createElement('button');

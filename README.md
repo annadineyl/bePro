@@ -57,9 +57,15 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
   <img alt="Separate the Uncompleted & Completed Tasks" width="60%" src="img/separate.gif">
 </div>
 
+### It is also..
+
+- **Adaptive**, accesible across all devices.
+- **Use local storage**, the tasks will remain on the page even when you've closed the page.
+
+
 ## How to Use?
 
-You can just go to this [page](), or open in your computer by [cloning/ downloading](https://github.com/annadineyl/bePro/releases) this repo, then double-click/ open the [index.html](https://github.com/annadineyl/bePro/blob/master/index.html) file in your favorite browser.
+You can just go to this [page](), or open in your computer by [cloning/ downloading](https://github.com/annadineyl/bePro/releases) the latest version of this repo, then double-click/ open the [index.html](https://github.com/annadineyl/bePro/blob/master/index.html) file in your favorite browser.
 
 ## Contributing
 

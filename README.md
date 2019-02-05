@@ -59,7 +59,7 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
 
 ### It is also..
 
-- **Adaptive**, accesible across all devices.
+- **Adaptive**, accessible across all devices.
 - **Use local storage**, the tasks will remain on the page even when you've closed the page.
 
 

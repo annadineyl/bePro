@@ -1,9 +1,10 @@
-<div align="center">
+<h1 align="center">
   <br>
+  <a href="https://annadineyl.github.io/bePro"><img src="img/bePro_icon.png" alt="bePro Icon" width="200"></a>
   <br>
   <a href="https://annadineyl.github.io/bePro"><img src="img/bePro.png" alt="bePro" width="200"></a>
   <br>
-</div>
+</h1>
 
 <h4 align="center">:memo: A simple to do list webpage to help you be more productive :memo:</h4>
 

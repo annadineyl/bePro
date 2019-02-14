@@ -26,7 +26,7 @@
 
 ## Description
 
-bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan what you want to do and list all of the tasks on this webpage to keep yourself on track with everything you want to do. This project is still currently in development. For now, it can do things like:
+**bePro** is a simple to do list built with pure HTML, CSS, and JavaScript. Plan what you want to do and list all of the tasks on this webpage to keep yourself on track with everything you want to do. This project is still currently in development. For now, it can do things like:
 
 <h3 align="center">Add Task</h3>
 
@@ -68,7 +68,7 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
 
 - You can just go to this <a href="https://annadineyl.github.io/bePro">page</a>
 
-*-or-*
+  *-or-*
 
 - Open in your computer by <a href="https://github.com/annadineyl/bePro/releases">cloning/ downloading</a> the latest version of this repo, then double-click/ open the <a href="https://github.com/annadineyl/bePro/blob/master/index.html">index.html</a> file in your favorite browser.
 

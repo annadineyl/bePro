@@ -66,11 +66,11 @@ bePro is a simple to do list built with pure HTML, CSS, and JavaScript. Plan wha
 
 ## How to Use?
 
-<p align="center">You can just go to this <a href="https://annadineyl.github.io/bePro">page</a></p> 
+- You can just go to this <a href="https://annadineyl.github.io/bePro">page</a>
 
-<p align="center">-or-</p>  
+*-or-*
 
-<p align="center">Open in your computer by <a href="https://github.com/annadineyl/bePro/releases">cloning/ downloading</a> the latest version of this repo, then double-click/ open the <a href="https://github.com/annadineyl/bePro/blob/master/index.html">index.html</a> file in your favorite browser.</p>
+- Open in your computer by <a href="https://github.com/annadineyl/bePro/releases">cloning/ downloading</a> the latest version of this repo, then double-click/ open the <a href="https://github.com/annadineyl/bePro/blob/master/index.html">index.html</a> file in your favorite browser.
 
 ## Contributing
 

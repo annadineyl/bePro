@@ -52,7 +52,15 @@ a.github-link:hover svg .fill {
     fill: rgba(234, 89, 106, 1);
 }
 
-h1 {
+a#bePro {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;  
+    width: 295px;
+    margin: 0 auto;
+}
+
+a#bePro h1 {
     text-align: center;
     font-size: 100px;
     font-weight: 600;
@@ -67,7 +75,7 @@ h1 {
     transition: font-size .5s ease;
 }
 
-h1 span {
+a#bePro h1 span {
     color: rgba(234, 89, 106, .3);
 }
 
@@ -163,7 +171,7 @@ footer p a:hover {
 
 @media screen and (max-width: 610px) {
 
-    h1 {
+    a#bePro h1 {
         font-size: 90px;
     }
 
@@ -175,7 +183,7 @@ footer p a:hover {
 
 @media screen and (max-width: 505px) {
 
-    h1 {
+    a#bePro h1 {
         font-size: 83px;
         margin-top: 59px;
     }
@@ -200,7 +208,7 @@ footer p a:hover {
 
 @media screen and (max-width: 410px) {
 
-    h1 {
+    a#bePro h1 {
         font-size: 80px;
         margin-top: 70px;
     }
@@ -217,7 +225,7 @@ footer p a:hover {
 
 @media screen and (max-width: 375px) {
 
-    h1 {
+    a#bePro h1 {
         font-size: 75px;
     }
 

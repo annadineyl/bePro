@@ -171,6 +171,10 @@ footer p a:hover {
 
 @media screen and (max-width: 610px) {
 
+    a#bePro { 
+        width: 265px;
+    }
+
     a#bePro h1 {
         font-size: 90px;
     }
@@ -182,6 +186,10 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 505px) {
+
+    a#bePro { 
+        width: 245px;
+    }
 
     a#bePro h1 {
         font-size: 83px;
@@ -208,6 +216,10 @@ footer p a:hover {
 
 @media screen and (max-width: 410px) {
 
+    a#bePro { 
+        width: 235px;
+    }
+
     a#bePro h1 {
         font-size: 80px;
         margin-top: 70px;
@@ -224,6 +236,10 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 375px) {
+
+    a#bePro { 
+        width: 222px;
+    }
 
     a#bePro h1 {
         font-size: 75px;

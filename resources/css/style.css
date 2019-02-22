@@ -502,6 +502,7 @@ footer p a:hover {
 
     a#bePro h1 {
         font-size: 76px;
+        margin-top: 59px;
     }
 
     div#input {
@@ -537,15 +538,15 @@ footer p a:hover {
     }
 
     div#input {
-        width: 340px;
+        width: 333px;
     }
 
     div.container {
-        width: 340px;
+        width: 333px;
     }
 
     div.container ul.todo li input.edit-input {
-        width: 180px;
+        width: 173px;
     }
 
     div.container ul.todo#todo:empty:after {

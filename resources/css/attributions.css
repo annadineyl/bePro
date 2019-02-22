@@ -81,7 +81,7 @@ a#bePro h1 span {
 
 h2 {
     color: #F3828E;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 30px;
 
     -webkit-transition: font-size .5s ease;
@@ -171,6 +171,14 @@ footer p a:hover {
 
 @media screen and (max-width: 610px) {
 
+    div.container ul {
+        width: 470px;
+    }
+
+}
+
+@media screen and (max-width: 558px) {
+
     a#bePro { 
         width: 265px;
     }
@@ -179,22 +187,9 @@ footer p a:hover {
         font-size: 90px;
     }
 
-    div.container ul {
-        width: 470px;
-    }
-
 }
 
 @media screen and (max-width: 505px) {
-
-    a#bePro { 
-        width: 245px;
-    }
-
-    a#bePro h1 {
-        font-size: 83px;
-        margin-top: 59px;
-    }
 
     h2 {
         font-size: 26px;
@@ -202,6 +197,19 @@ footer p a:hover {
 
     div.container ul {
         width: 430px;
+    }
+
+}
+
+@media screen and (max-width: 488px) {
+
+    a#bePro {
+        width: 230px;
+    }
+
+    a#bePro h1 {
+        font-size: 76px;
+        margin-top: 59px;
     }
 
 }
@@ -214,15 +222,14 @@ footer p a:hover {
 
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 411px) {
 
-    a#bePro { 
-        width: 235px;
+    a#bePro {
+        width: 205px;
     }
 
     a#bePro h1 {
-        font-size: 80px;
-        margin-top: 70px;
+        font-size: 70px;
     }
 
     h2 {
@@ -237,20 +244,24 @@ footer p a:hover {
 
 @media screen and (max-width: 375px) {
 
-    a#bePro { 
-        width: 222px;
-    }
-
-    a#bePro h1 {
-        font-size: 75px;
-    }
-
     h2 {
         font-size: 20px;
     }
 
     div.container ul {
         width: 270px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    a#bePro {
+        width: 195px;
+    }
+
+    a#bePro h1 {
+        font-size: 65px;
     }
 
 }

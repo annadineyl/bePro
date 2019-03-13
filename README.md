@@ -66,11 +66,18 @@
 
 ## How to Use?
 
+#### > Go to the Page
 - You can just go to this <a href="https://annadineyl.github.io/bePro">page</a>
 
-  *-or-*
+**-or-**
 
-- Open in your computer by <a href="https://github.com/annadineyl/bePro/releases">cloning/ downloading</a> the latest version of this repo, then double-click/ open the <a href="https://github.com/annadineyl/bePro/blob/master/index.html">index.html</a> file in your favorite browser.
+#### > Run Locally
+1. Open in your computer by <a href="https://github.com/annadineyl/bePro/releases">cloning/ downloading</a> the latest version of this repo, or clone it using git.
+  ```
+  git clone https://github.com/annadineyl/bePro.git
+  ```
+
+2. Then double-click/ open the <a href="https://github.com/annadineyl/bePro/blob/master/index.html">index.html</a> file in your favorite browser.
 
 ## Contributing
 

@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://annadineyl.github.io/bePro"><img src="img/bePro_icon.png" alt="bePro Icon" width="200"></a>
+  <a href="https://nadiannis.github.io/bePro"><img src="img/bePro_icon.png" alt="bePro Icon" width="200"></a>
   <br>
-  <a href="https://annadineyl.github.io/bePro"><img src="img/bePro.png" alt="bePro" width="200"></a>
+  <a href="https://nadiannis.github.io/bePro"><img src="img/bePro.png" alt="bePro" width="200"></a>
   <br>
 </h1>
 
@@ -14,7 +14,7 @@
 
 ---
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge&logo=appveyor)](https://github.com/annadineyl/bePro/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge&logo=appveyor)](https://github.com/nadiannis/bePro/issues)
 
 ## Contents
 
@@ -67,23 +67,23 @@
 ## How to Use?
 
 #### > Go to the Page
-- You can just go to this <a href="https://annadineyl.github.io/bePro">page</a>
+- You can just go to this <a href="https://nadiannis.github.io/bePro">page</a>
 
 **-or-**
 
 #### > Run Locally
-1. Open in your computer by <a href="https://github.com/annadineyl/bePro/releases">cloning/ downloading</a> the latest version of this repo, or clone it using git.
+1. Open in your computer by <a href="https://github.com/nadiannis/bePro/releases">cloning/ downloading</a> the latest version of this repo, or clone it using git.
   ```
-  git clone https://github.com/annadineyl/bePro.git
+  git clone https://github.com/nadiannis/bePro.git
   ```
 
-2. Then double-click/ open the <a href="https://github.com/annadineyl/bePro/blob/master/index.html">index.html</a> file in your favorite browser.
+2. Then double-click/ open the <a href="https://github.com/nadiannis/bePro/blob/master/index.html">index.html</a> file in your favorite browser.
 
 ## Contributing
 
 ## Authors
-- **Annisa Nadia** - *Initial Work* - [annadineyl](https://github.com/annadineyl) (annisanadianeyla@gmail.com)
+- **Annisa Nadia** - *Initial Work* - [nadiannis](https://github.com/nadiannis) (annisanadianeyla@gmail.com)
 
 ## License
 
-<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GNU GPL 3.0" style="border-width:0" src="https://www.gnu.org/graphics/gplv3-with-text-84x42.png"></a><br>This project is licensed under the GNU GPL 3.0 License - see the [LICENSE.md](https://github.com/annadineyl/bePro/blob/master/LICENSE) file for details
+<a rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html"><img alt="GNU GPL 3.0" style="border-width:0" src="https://www.gnu.org/graphics/gplv3-with-text-84x42.png"></a><br>This project is licensed under the GNU GPL 3.0 License - see the [LICENSE.md](https://github.com/nadiannis/bePro/blob/master/LICENSE) file for details
